@@ -1,0 +1,17 @@
+.img-thumbnail {
+    padding: 0rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+  }
+  .margin-top {
+    margin-top: 20px;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+ 
