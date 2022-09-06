@@ -5,13 +5,40 @@
     border-radius: 0.25rem;
     max-width: 100%;
     height: auto;
-  }
-  .margin-top {
+}
+.margin-top {
     margin-top: 20px;
-  }
+}
+.margin-top1 {
+  margin-top: 8px;
+}
   *,
   *::before,
   *::after {
     box-sizing: border-box;
-  }
- 
+}
+.mat-card {
+  border-radius: 12px;
+  margin: 10px 10px;
+  padding: 20px;
+  border-color: rgb(209, 209, 221);
+}
+.mat-card#header {
+  padding: 0;
+}
+.rounded-top {
+  border-top-left-radius: 12px!important;
+  border-top-right-radius: 12px!important;
+}
+.rounded-bottom {
+  border-bottom-left-radius: 12px!important;
+  border-bottom-right-radius: 12px!important;
+}
+.row {
+  margin: 0px 0px 0px 0px;
+}
+.image2 {
+  position: absolute;
+  top: -130px;
+  left: 30px;
+}  
