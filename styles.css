@@ -5,12 +5,26 @@
     border-radius: 0.25rem;
     max-width: 100%;
     height: auto;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.img-thumbnail2 {
+  padding: 0rem;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+  margin-top: 2px;
 }
 .margin-top {
     margin-top: 20px;
 }
 .margin-top1 {
-  margin-top: 8px;
+  margin-top: 11px;
+}
+.margin-left1 {
+  margin-left: 4px;
 }
   *,
   *::before,
@@ -41,4 +55,13 @@
   position: absolute;
   top: -130px;
   left: 30px;
-}  
+}
+.bg-primary {
+  background-color: black!important;
+}
+.rounded-left-top {
+  border-top-left-radius: 12px!important;
+}
+.rounded-right-top {
+  border-top-right-radius: 12px!important;
+}
